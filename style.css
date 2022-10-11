@@ -42,7 +42,7 @@
   
     margin: 0rem;
     padding: 0rem;
-    border: 0.125rem solid black;
+    border: 0.125rem solid white;
   }
   fieldset {
     display: block;
@@ -66,7 +66,7 @@
     text-decoration-line: none;
     color:black;
     background-color: #0000fa;
-    border: 0.25rem solid black;
+    border: 0.25rem solid white;
     padding: 0.3125rem;
     font-size: 1.875rem;
     font-weight: bold;
@@ -87,7 +87,7 @@
   textarea {
     margin-left:12.5rem;
     background-color: white;
-    border: 0.3125rem solid black;
+    border: 0.3125rem solid white;
     font-weight: bold;
     width:40%;
     height:12.5rem;
@@ -107,12 +107,14 @@
   h2 {
     font-size: 1.875rem;
     font-weight: 25rem;
-    font-style: italic;
-    margin: 1.875rem;
+    transform: capitalize;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
     padding: 0.3125rem;
     background-color: #0000fa;
     text-align: center;
-    border: 0.3125rem solid black;
+    border: 0.3125rem solid white;
     border-radius: 0.625rem;
   }
   h4 {
@@ -122,7 +124,7 @@
   iframe {
     margin: 1.25rem auto;
     display: active;
-    border: 0.3125rem solid black;
+    border: 0.3125rem solid white;
     border-radius: 0.625rem;
     width: 100%;
     height: 31.25rem;
@@ -130,7 +132,7 @@
   input#submit {
     display:inline-block;
     font-size: 0.9rem;
-    border: 0.3125rem solid black;
+    border: 0.3125rem solid white;
     background-color: black;
     color: white;
   }
@@ -138,10 +140,39 @@
     display: inline-block;
     float: left;
     margin: 1.5rem;
+    margin-left: 1rem;
   }
   p.para {
-    display: inline-block;
-    float: left;
+    display: inline;
+    float:left;
     font-size: 2.3125rem;
-    font-style: capitalize italic;
+    transform: capitalize;
+  }
+  p#serviceintro{
+  transform: capitalize;
+  font-size: 25px;
+}
+  h2#services {
+    display: inline-block;
+    font-size: 1.875rem;
+    font-weight: 25rem;
+    font-style: italic;
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0.3125rem;
+    background-color: #0000fa;
+    text-align: center;
+    border: 0.3125rem solid white;
+    border-radius: 0.625rem;
+  }
+  p#service2 {
+    font-size:1.9rem;
+    font-weight: 30rem;
+    display: inline;
+    float: left;
+    text-align: left;
+  }
+  p.servicepara {
+  font-size: 22px;
   }
