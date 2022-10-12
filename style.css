@@ -39,10 +39,9 @@
     font-size: larger;
   }
   img{
-  
     margin: 0rem;
     padding: 0rem;
-    border: 0.125rem solid white;
+    border: 0.14rem;
   }
   fieldset {
     display: block;
@@ -71,6 +70,9 @@
     font-size: 1.875rem;
     font-weight: bold;
     border-radius: 0.625rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
   }
   li{
     float: left;
@@ -176,3 +178,12 @@
   p.servicepara {
   font-size: 22px;
   }
+  ul#serviceul {
+    display: inline-block;
+    font-family: cursive;
+    font-weight: 25px;
+    font-size: 25px;
+  }
+div {
+  display: block;
+}
